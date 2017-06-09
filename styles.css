@@ -9,7 +9,7 @@ background-color: #C7BFC0;
     padding: 0;
     overflow: hidden;
     /*background-color: #0C541D*/;
-    background: rgba(12, 84, 29, 0.5)
+    background: rgba(12, 84, 29, 0.5);
 }
 
 li {
@@ -29,7 +29,7 @@ li a:hover {
     background-color: #111;
 }
 
-li .active {
+li a:active {
     background-color: #000;
 }
 /*fonts*/
@@ -47,3 +47,29 @@ img {
 
 
 
+/*footer*/
+footer
+{
+text-align: center;
+   color: white;
+   font-size: 1.05em;
+   position: static;
+   height:17px;
+   width:100%;
+   background: rgba(12, 84, 29, 0.5);
+}
+
+#AdjustedFooter
+{
+	position: absolute;
+	left: 0px;
+    bottom: -170px;
+}
+img.twitter {
+  max-width:75%;
+  max-height:75%;
+}
+img.facebook {
+  max-width:75%;
+  max-height:75%;
+}
