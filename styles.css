@@ -8,7 +8,6 @@ background-color: #C7BFC0;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: #0C541D*/;
     background: rgba(12, 84, 29, 0.5);
 }
 
@@ -36,6 +35,10 @@ li a:active {
 
 h3, section {
 	font-family: 'Oxygen', sans-serif;
+
+}
+h1, nav, p {
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -65,11 +68,19 @@ text-align: center;
 	left: 0px;
     bottom: -170px;
 }
-img.twitter {
+img {
   max-width:75%;
   max-height:75%;
 }
-img.facebook {
-  max-width:75%;
-  max-height:75%;
+img {
+  max-width:80%;
+  max-height:80%;
+}
+
+
+
+/*Text editing*/
+p, h1, section {
+	color: white;
+	text-align: center;
 }
