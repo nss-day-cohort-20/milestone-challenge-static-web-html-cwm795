@@ -1,6 +1,8 @@
 body {
 background-color: FFFDE3;
 }
+
+/*Nav Bar*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,4 +30,12 @@ li a:hover {
 
 li .active {
     background-color: #000;
+}
+
+
+
+
+/*Img editing*/
+img {
+	border-radius: 50%;
 }
