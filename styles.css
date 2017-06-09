@@ -1,14 +1,15 @@
 body {
-background-color: FFFDE3;
+background-color: #C7BFC0;
 }
 
 /*Nav Bar*/
-ul {
+.NavBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #334a23;
+    /*background-color: #0C541D*/;
+    background: rgba(12, 84, 29, 0.5)
 }
 
 li {
@@ -31,11 +32,18 @@ li a:hover {
 li .active {
     background-color: #000;
 }
+/*fonts*/
 
-
+h3, section {
+	font-family: 'Oxygen', sans-serif;
+}
 
 
 /*Img editing*/
 img {
-	border-radius: 50%;
+	border-radius: 10%;
+	height: 200px;
 }
+
+
+
