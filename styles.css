@@ -57,7 +57,7 @@ text-align: center;
    color: white;
    font-size: 1.05em;
    position: static;
-   height:17px;
+   height:20px;
    width:100%;
    background: rgba(12, 84, 29, 0.5);
 }
@@ -66,7 +66,7 @@ text-align: center;
 {
 	position: absolute;
 	left: 0px;
-    bottom: -170px;
+    bottom: -200px;
 }
 img {
   max-width:75%;
@@ -82,5 +82,5 @@ img {
 /*Text editing*/
 p, h1, section {
 	color: white;
-	text-align: center;
+text-align: center;
 }
